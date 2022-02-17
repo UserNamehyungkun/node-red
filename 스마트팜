@@ -1,0 +1,1898 @@
+[
+    {
+        "id": "5f241da8bcdfc8fb",
+        "type": "tab",
+        "label": "플로우 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "d929e7231d5b196f",
+        "type": "group",
+        "z": "5f241da8bcdfc8fb",
+        "name": "자동개폐기",
+        "style": {
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "35446a02b534e8ea",
+            "c2c17614b6a378b4",
+            "87c881504427189a",
+            "c76e0ee829ae01b4",
+            "2896338ce61189e7",
+            "9818c22caa851e72",
+            "26714e0303129e5c",
+            "ef14c6df216182a3"
+        ],
+        "x": 384,
+        "y": 159,
+        "w": 342,
+        "h": 202
+    },
+    {
+        "id": "3cf5a712af0a744a",
+        "type": "group",
+        "z": "5f241da8bcdfc8fb",
+        "name": "현재시각 표시",
+        "style": {
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "4c095b6fa0034847",
+            "200ba59f52f19141",
+            "0b59763b4e2cc866"
+        ],
+        "x": 164,
+        "y": 19,
+        "w": 522,
+        "h": 82
+    },
+    {
+        "id": "62fbe11350a29e5b",
+        "type": "group",
+        "z": "5f241da8bcdfc8fb",
+        "name": "천장(우)",
+        "style": {
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "16e64a2a37d7c44e",
+            "e0680187cc5fa256",
+            "f673dd0046086e48",
+            "42a080ec496aea1d",
+            "6c4c9134a1a252ef",
+            "4fc7c636dc789b58",
+            "0ceea5c7cd93869e"
+        ],
+        "x": 774,
+        "y": 119,
+        "w": 552,
+        "h": 242
+    },
+    {
+        "id": "48cebcb91718ff58",
+        "type": "group",
+        "z": "5f241da8bcdfc8fb",
+        "name": "천장-(A)",
+        "style": {
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "13fbb9b58e8f6bed",
+            "470437025b94245a",
+            "923ff5eeba73dcfd",
+            "79a0f70dcadc8387",
+            "162cdb79566038a9",
+            "ba8ef867807869b4",
+            "ea8ff73bf6496953"
+        ],
+        "x": 774,
+        "y": 399,
+        "w": 512,
+        "h": 242
+    },
+    {
+        "id": "1cb5bfcd91a88c8d",
+        "type": "group",
+        "z": "5f241da8bcdfc8fb",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "1caecf4a938da3e3",
+            "738e86f7f7fc57d5",
+            "572b30b76c157b04",
+            "4d50efc185e2498f"
+        ],
+        "x": 154,
+        "y": 139,
+        "w": 172,
+        "h": 202
+    },
+    {
+        "id": "08a513079fe616d5",
+        "type": "group",
+        "z": "5f241da8bcdfc8fb",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "5448931683722d1e",
+            "6195e6910f9ae209",
+            "7fcd41db7598249d"
+        ],
+        "x": 134,
+        "y": 359,
+        "w": 152,
+        "h": 162
+    },
+    {
+        "id": "8e684dab94804610",
+        "type": "group",
+        "z": "5f241da8bcdfc8fb",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "12953fc11314fafc",
+            "67611fbaa53fd25b",
+            "b960ac176c3c4bf1"
+        ],
+        "x": 134,
+        "y": 539,
+        "w": 152,
+        "h": 162
+    },
+    {
+        "id": "0c95426b65fcc1cc",
+        "type": "group",
+        "z": "5f241da8bcdfc8fb",
+        "name": "라이프팜",
+        "style": {
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "98e4b27801a1aa83"
+        ],
+        "x": 754,
+        "y": 19,
+        "w": 172,
+        "h": 82
+    },
+    {
+        "id": "16e64a2a37d7c44e",
+        "type": "ui_button",
+        "z": "5f241da8bcdfc8fb",
+        "g": "62fbe11350a29e5b",
+        "name": "",
+        "group": "56d7357ff61d7e43",
+        "order": 25,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "label": "열림",
+        "tooltip": "",
+        "color": "BLACK",
+        "bgcolor": "silver",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1050,
+        "y": 160,
+        "wires": [
+            [
+                "0ceea5c7cd93869e"
+            ]
+        ]
+    },
+    {
+        "id": "e0680187cc5fa256",
+        "type": "ui_button",
+        "z": "5f241da8bcdfc8fb",
+        "g": "62fbe11350a29e5b",
+        "name": "",
+        "group": "56d7357ff61d7e43",
+        "order": 26,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "label": "정지",
+        "tooltip": "",
+        "color": "BLACK",
+        "bgcolor": "silver",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1050,
+        "y": 200,
+        "wires": [
+            [
+                "0ceea5c7cd93869e"
+            ]
+        ]
+    },
+    {
+        "id": "f673dd0046086e48",
+        "type": "ui_button",
+        "z": "5f241da8bcdfc8fb",
+        "g": "62fbe11350a29e5b",
+        "name": "",
+        "group": "56d7357ff61d7e43",
+        "order": 27,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "label": "닫힘",
+        "tooltip": "",
+        "color": "BLACK",
+        "bgcolor": "silver",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1050,
+        "y": 240,
+        "wires": [
+            [
+                "0ceea5c7cd93869e"
+            ]
+        ]
+    },
+    {
+        "id": "42a080ec496aea1d",
+        "type": "ui_button",
+        "z": "5f241da8bcdfc8fb",
+        "g": "62fbe11350a29e5b",
+        "name": "",
+        "group": "56d7357ff61d7e43",
+        "order": 28,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "label": "자동",
+        "tooltip": "",
+        "color": "BLACK",
+        "bgcolor": "silver",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1050,
+        "y": 280,
+        "wires": [
+            [
+                "0ceea5c7cd93869e"
+            ]
+        ]
+    },
+    {
+        "id": "6c4c9134a1a252ef",
+        "type": "ui_button",
+        "z": "5f241da8bcdfc8fb",
+        "g": "62fbe11350a29e5b",
+        "name": "",
+        "group": "56d7357ff61d7e43",
+        "order": 29,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "label": "수동",
+        "tooltip": "",
+        "color": "BLACK",
+        "bgcolor": "silver",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1050,
+        "y": 320,
+        "wires": [
+            [
+                "0ceea5c7cd93869e"
+            ]
+        ]
+    },
+    {
+        "id": "13fbb9b58e8f6bed",
+        "type": "ui_button",
+        "z": "5f241da8bcdfc8fb",
+        "g": "48cebcb91718ff58",
+        "name": "",
+        "group": "56d7357ff61d7e43",
+        "order": 32,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "label": "열림",
+        "tooltip": "",
+        "color": "BLACK",
+        "bgcolor": "silver",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1050,
+        "y": 440,
+        "wires": [
+            [
+                "ea8ff73bf6496953"
+            ]
+        ]
+    },
+    {
+        "id": "470437025b94245a",
+        "type": "ui_button",
+        "z": "5f241da8bcdfc8fb",
+        "g": "48cebcb91718ff58",
+        "name": "",
+        "group": "56d7357ff61d7e43",
+        "order": 33,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "label": "정지",
+        "tooltip": "",
+        "color": "BLACK",
+        "bgcolor": "silver",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1050,
+        "y": 480,
+        "wires": [
+            [
+                "ea8ff73bf6496953"
+            ]
+        ]
+    },
+    {
+        "id": "923ff5eeba73dcfd",
+        "type": "ui_button",
+        "z": "5f241da8bcdfc8fb",
+        "g": "48cebcb91718ff58",
+        "name": "",
+        "group": "56d7357ff61d7e43",
+        "order": 34,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "label": "닫힘",
+        "tooltip": "",
+        "color": "BLACK",
+        "bgcolor": "silver",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1050,
+        "y": 520,
+        "wires": [
+            [
+                "ea8ff73bf6496953"
+            ]
+        ]
+    },
+    {
+        "id": "79a0f70dcadc8387",
+        "type": "ui_button",
+        "z": "5f241da8bcdfc8fb",
+        "g": "48cebcb91718ff58",
+        "name": "",
+        "group": "56d7357ff61d7e43",
+        "order": 35,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "label": "자동",
+        "tooltip": "",
+        "color": "BLACK",
+        "bgcolor": "silver",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1050,
+        "y": 560,
+        "wires": [
+            [
+                "ea8ff73bf6496953"
+            ]
+        ]
+    },
+    {
+        "id": "162cdb79566038a9",
+        "type": "ui_button",
+        "z": "5f241da8bcdfc8fb",
+        "g": "48cebcb91718ff58",
+        "name": "",
+        "group": "56d7357ff61d7e43",
+        "order": 36,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "label": "수동",
+        "tooltip": "",
+        "color": "BLACK",
+        "bgcolor": "silver",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1050,
+        "y": 600,
+        "wires": [
+            [
+                "ea8ff73bf6496953"
+            ]
+        ]
+    },
+    {
+        "id": "c6d336c1a44dd662",
+        "type": "ui_text",
+        "z": "5f241da8bcdfc8fb",
+        "group": "56d7357ff61d7e43",
+        "order": 18,
+        "width": "6",
+        "height": "1",
+        "name": "",
+        "label": "온도2",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "x": 530,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "0ef60828ede3e32f",
+        "type": "ui_text",
+        "z": "5f241da8bcdfc8fb",
+        "group": "56d7357ff61d7e43",
+        "order": 19,
+        "width": "6",
+        "height": "1",
+        "name": "",
+        "label": "온도3",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "x": 530,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "52163e53adb07785",
+        "type": "ui_text",
+        "z": "5f241da8bcdfc8fb",
+        "group": "56d7357ff61d7e43",
+        "order": 21,
+        "width": "6",
+        "height": "1",
+        "name": "",
+        "label": "습도1",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "x": 530,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "855c9f70b0c8059d",
+        "type": "ui_text",
+        "z": "5f241da8bcdfc8fb",
+        "group": "56d7357ff61d7e43",
+        "order": 22,
+        "width": "6",
+        "height": "1",
+        "name": "",
+        "label": "습도2",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "x": 530,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "b9b8e1c5785ea20f",
+        "type": "ui_text",
+        "z": "5f241da8bcdfc8fb",
+        "group": "56d7357ff61d7e43",
+        "order": 23,
+        "width": "6",
+        "height": "1",
+        "name": "",
+        "label": "습도3",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "x": 530,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "4fc7c636dc789b58",
+        "type": "ui_button",
+        "z": "5f241da8bcdfc8fb",
+        "g": "62fbe11350a29e5b",
+        "name": "",
+        "group": "56d7357ff61d7e43",
+        "order": 31,
+        "width": "2",
+        "height": "1",
+        "passthru": false,
+        "label": "천장(우)",
+        "tooltip": "",
+        "color": "BLACK",
+        "bgcolor": "skyblue",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 860,
+        "y": 240,
+        "wires": [
+            [
+                "16e64a2a37d7c44e",
+                "e0680187cc5fa256",
+                "f673dd0046086e48",
+                "42a080ec496aea1d",
+                "6c4c9134a1a252ef"
+            ]
+        ]
+    },
+    {
+        "id": "ba8ef867807869b4",
+        "type": "ui_button",
+        "z": "5f241da8bcdfc8fb",
+        "g": "48cebcb91718ff58",
+        "name": "",
+        "group": "56d7357ff61d7e43",
+        "order": 24,
+        "width": "2",
+        "height": "1",
+        "passthru": false,
+        "label": "천장-(A)",
+        "tooltip": "",
+        "color": "BLACK",
+        "bgcolor": "skyblue",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 860,
+        "y": 520,
+        "wires": [
+            [
+                "13fbb9b58e8f6bed",
+                "470437025b94245a",
+                "923ff5eeba73dcfd",
+                "79a0f70dcadc8387",
+                "162cdb79566038a9"
+            ]
+        ]
+    },
+    {
+        "id": "0ceea5c7cd93869e",
+        "type": "ui_button",
+        "z": "5f241da8bcdfc8fb",
+        "g": "62fbe11350a29e5b",
+        "name": "",
+        "group": "56d7357ff61d7e43",
+        "order": 30,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "label": "상태",
+        "tooltip": "",
+        "color": "BLACK",
+        "bgcolor": "WHITE",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1250,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ea8ff73bf6496953",
+        "type": "ui_button",
+        "z": "5f241da8bcdfc8fb",
+        "g": "48cebcb91718ff58",
+        "name": "",
+        "group": "56d7357ff61d7e43",
+        "order": 37,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "label": "상태",
+        "tooltip": "",
+        "color": "BLACK",
+        "bgcolor": "WHITE",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1210,
+        "y": 520,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "12953fc11314fafc",
+        "type": "ui_button",
+        "z": "5f241da8bcdfc8fb",
+        "g": "8e684dab94804610",
+        "name": "",
+        "group": "56d7357ff61d7e43",
+        "order": 12,
+        "width": "2",
+        "height": "1",
+        "passthru": false,
+        "label": "구분",
+        "tooltip": "",
+        "color": "BLACK",
+        "bgcolor": "gold",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 210,
+        "y": 580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "67611fbaa53fd25b",
+        "type": "ui_button",
+        "z": "5f241da8bcdfc8fb",
+        "g": "8e684dab94804610",
+        "name": "",
+        "group": "56d7357ff61d7e43",
+        "order": 16,
+        "width": "2",
+        "height": "1",
+        "passthru": false,
+        "label": "온도",
+        "tooltip": "",
+        "color": "BLACK",
+        "bgcolor": "gold",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 210,
+        "y": 620,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b960ac176c3c4bf1",
+        "type": "ui_button",
+        "z": "5f241da8bcdfc8fb",
+        "g": "8e684dab94804610",
+        "name": "",
+        "group": "56d7357ff61d7e43",
+        "order": 20,
+        "width": "2",
+        "height": "1",
+        "passthru": false,
+        "label": "습도",
+        "tooltip": "",
+        "color": "BLACK",
+        "bgcolor": "gold",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 210,
+        "y": 660,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1caecf4a938da3e3",
+        "type": "ui_button",
+        "z": "5f241da8bcdfc8fb",
+        "g": "1cb5bfcd91a88c8d",
+        "name": "",
+        "group": "56d7357ff61d7e43",
+        "order": 6,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "label": "고온경보",
+        "tooltip": "",
+        "color": "BLACK",
+        "bgcolor": "AQUA",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 240,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "738e86f7f7fc57d5",
+        "type": "ui_button",
+        "z": "5f241da8bcdfc8fb",
+        "g": "1cb5bfcd91a88c8d",
+        "name": "",
+        "group": "56d7357ff61d7e43",
+        "order": 7,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "label": "저온경보",
+        "tooltip": "",
+        "color": "BLACK",
+        "bgcolor": "AQUA",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 240,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "572b30b76c157b04",
+        "type": "ui_button",
+        "z": "5f241da8bcdfc8fb",
+        "g": "1cb5bfcd91a88c8d",
+        "name": "",
+        "group": "56d7357ff61d7e43",
+        "order": 8,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "label": "빗물감지",
+        "tooltip": "",
+        "color": "BLACK",
+        "bgcolor": "AQUA",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 240,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4d50efc185e2498f",
+        "type": "ui_button",
+        "z": "5f241da8bcdfc8fb",
+        "g": "1cb5bfcd91a88c8d",
+        "name": "",
+        "group": "56d7357ff61d7e43",
+        "order": 9,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "label": "0.0리터",
+        "tooltip": "",
+        "color": "BLACK",
+        "bgcolor": "AQUA",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 240,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5448931683722d1e",
+        "type": "ui_button",
+        "z": "5f241da8bcdfc8fb",
+        "g": "08a513079fe616d5",
+        "name": "",
+        "group": "56d7357ff61d7e43",
+        "order": 13,
+        "width": "6",
+        "height": "1",
+        "passthru": false,
+        "label": "센서1",
+        "tooltip": "",
+        "color": "BLACK",
+        "bgcolor": "gold",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 210,
+        "y": 400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6195e6910f9ae209",
+        "type": "ui_button",
+        "z": "5f241da8bcdfc8fb",
+        "g": "08a513079fe616d5",
+        "name": "",
+        "group": "56d7357ff61d7e43",
+        "order": 14,
+        "width": "6",
+        "height": "1",
+        "passthru": false,
+        "label": "센서2",
+        "tooltip": "",
+        "color": "BLACK",
+        "bgcolor": "gold",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 210,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7fcd41db7598249d",
+        "type": "ui_button",
+        "z": "5f241da8bcdfc8fb",
+        "g": "08a513079fe616d5",
+        "name": "",
+        "group": "56d7357ff61d7e43",
+        "order": 15,
+        "width": "6",
+        "height": "1",
+        "passthru": false,
+        "label": "센서3",
+        "tooltip": "",
+        "color": "BLACK",
+        "bgcolor": "gold",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 210,
+        "y": 480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4c095b6fa0034847",
+        "type": "function",
+        "z": "5f241da8bcdfc8fb",
+        "g": "3cf5a712af0a744a",
+        "name": "",
+        "func": "var date = new Date();\nmsg.payload = date.toLocaleString();\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 60,
+        "wires": [
+            [
+                "200ba59f52f19141"
+            ]
+        ]
+    },
+    {
+        "id": "200ba59f52f19141",
+        "type": "ui_text",
+        "z": "5f241da8bcdfc8fb",
+        "g": "3cf5a712af0a744a",
+        "group": "56d7357ff61d7e43",
+        "order": 5,
+        "width": "5",
+        "height": "1",
+        "name": "",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 610,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "0b59763b4e2cc866",
+        "type": "inject",
+        "z": "5f241da8bcdfc8fb",
+        "g": "3cf5a712af0a744a",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payloadType": "date",
+        "x": 280,
+        "y": 60,
+        "wires": [
+            [
+                "4c095b6fa0034847"
+            ]
+        ]
+    },
+    {
+        "id": "35446a02b534e8ea",
+        "type": "ui_ui_control",
+        "z": "5f241da8bcdfc8fb",
+        "g": "d929e7231d5b196f",
+        "name": "",
+        "events": "all",
+        "x": 640,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c2c17614b6a378b4",
+        "type": "ui_ui_control",
+        "z": "5f241da8bcdfc8fb",
+        "g": "d929e7231d5b196f",
+        "name": "",
+        "events": "all",
+        "x": 640,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "87c881504427189a",
+        "type": "ui_ui_control",
+        "z": "5f241da8bcdfc8fb",
+        "g": "d929e7231d5b196f",
+        "name": "",
+        "events": "all",
+        "x": 640,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c76e0ee829ae01b4",
+        "type": "ui_ui_control",
+        "z": "5f241da8bcdfc8fb",
+        "g": "d929e7231d5b196f",
+        "name": "",
+        "events": "all",
+        "x": 640,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2896338ce61189e7",
+        "type": "ui_button",
+        "z": "5f241da8bcdfc8fb",
+        "g": "d929e7231d5b196f",
+        "name": "",
+        "group": "56d7357ff61d7e43",
+        "order": 1,
+        "width": "5",
+        "height": "1",
+        "passthru": false,
+        "label": "자동개폐기",
+        "tooltip": "",
+        "color": "black",
+        "bgcolor": "silver",
+        "className": "",
+        "icon": "list",
+        "payload": "0",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 490,
+        "y": 200,
+        "wires": [
+            [
+                "35446a02b534e8ea"
+            ]
+        ]
+    },
+    {
+        "id": "9818c22caa851e72",
+        "type": "ui_button",
+        "z": "5f241da8bcdfc8fb",
+        "g": "d929e7231d5b196f",
+        "name": "",
+        "group": "56d7357ff61d7e43",
+        "order": 2,
+        "width": "5",
+        "height": "1",
+        "passthru": false,
+        "label": "개별스위치",
+        "tooltip": "",
+        "color": "black",
+        "bgcolor": "GRAY",
+        "className": "",
+        "icon": "",
+        "payload": "2",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 480,
+        "y": 240,
+        "wires": [
+            [
+                "c2c17614b6a378b4"
+            ]
+        ]
+    },
+    {
+        "id": "26714e0303129e5c",
+        "type": "ui_button",
+        "z": "5f241da8bcdfc8fb",
+        "g": "d929e7231d5b196f",
+        "name": "",
+        "group": "56d7357ff61d7e43",
+        "order": 4,
+        "width": "5",
+        "height": "1",
+        "passthru": false,
+        "label": "Setting",
+        "tooltip": "",
+        "color": "black",
+        "bgcolor": "GRAY",
+        "className": "",
+        "icon": "",
+        "payload": "3",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 490,
+        "y": 320,
+        "wires": [
+            [
+                "87c881504427189a"
+            ]
+        ]
+    },
+    {
+        "id": "ef14c6df216182a3",
+        "type": "ui_button",
+        "z": "5f241da8bcdfc8fb",
+        "g": "d929e7231d5b196f",
+        "name": "",
+        "group": "56d7357ff61d7e43",
+        "order": 3,
+        "width": "5",
+        "height": "1",
+        "passthru": false,
+        "label": "관수",
+        "tooltip": "",
+        "color": "black",
+        "bgcolor": "GRAY",
+        "className": "",
+        "icon": "",
+        "payload": "1",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 470,
+        "y": 280,
+        "wires": [
+            [
+                "c76e0ee829ae01b4"
+            ]
+        ]
+    },
+    {
+        "id": "98e4b27801a1aa83",
+        "type": "ui_template",
+        "z": "5f241da8bcdfc8fb",
+        "g": "0c95426b65fcc1cc",
+        "group": "56d7357ff61d7e43",
+        "name": "",
+        "order": 11,
+        "width": "2",
+        "height": "1",
+        "format": "<img src=\"https://kin-phinf.pstatic.net/20220210_224/1644452745997U1w6M_PNG/image1.png\">\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 840,
+        "y": 60,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "faa07b9a0f30fe32",
+        "type": "ui_text",
+        "z": "5f241da8bcdfc8fb",
+        "group": "56d7357ff61d7e43",
+        "order": 17,
+        "width": "6",
+        "height": "1",
+        "name": "",
+        "label": "온도1",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "x": 530,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "7bd4852969be3095",
+        "type": "inject",
+        "z": "5f241da8bcdfc8fb",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "Hello world!",
+        "payloadType": "str",
+        "x": 280,
+        "y": 900,
+        "wires": [
+            [
+                "9718b8c3e962ca1c",
+                "01cbacec27874c48"
+            ]
+        ]
+    },
+    {
+        "id": "9718b8c3e962ca1c",
+        "type": "ui_text",
+        "z": "5f241da8bcdfc8fb",
+        "group": "7970f83a037d08f9",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "x": 550,
+        "y": 880,
+        "wires": [],
+        "info": "<u>msg.payload</u>"
+    },
+    {
+        "id": "01cbacec27874c48",
+        "type": "debug",
+        "z": "5f241da8bcdfc8fb",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 580,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "5be332b29288ce22",
+        "type": "ui_spacer",
+        "z": "5f241da8bcdfc8fb",
+        "name": "spacer",
+        "group": "76d4b4322280d5f0",
+        "order": 3,
+        "width": "1",
+        "height": "1"
+    },
+    {
+        "id": "0c372861fd77801c",
+        "type": "ui_spacer",
+        "z": "5f241da8bcdfc8fb",
+        "name": "spacer",
+        "group": "a0c7e9d3469dd130",
+        "order": 1,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "652e495219207196",
+        "type": "ui_spacer",
+        "z": "5f241da8bcdfc8fb",
+        "name": "spacer",
+        "group": "5221b3bc4647bd69",
+        "order": 14,
+        "width": "6",
+        "height": "1"
+    },
+    {
+        "id": "185438f50a7a656b",
+        "type": "ui_spacer",
+        "z": "5f241da8bcdfc8fb",
+        "name": "spacer",
+        "group": "e751117cd4c76378",
+        "order": 10,
+        "width": "4",
+        "height": "1"
+    },
+    {
+        "id": "0609470e1c7721f2",
+        "type": "ui_spacer",
+        "z": "5f241da8bcdfc8fb",
+        "name": "spacer",
+        "group": "e751117cd4c76378",
+        "order": 14,
+        "width": "4",
+        "height": "1"
+    },
+    {
+        "id": "2912372b19183f36",
+        "type": "ui_spacer",
+        "z": "5f241da8bcdfc8fb",
+        "name": "spacer",
+        "group": "84bc1c6d689d781a",
+        "order": 9,
+        "width": "8",
+        "height": "1"
+    },
+    {
+        "id": "fa9e1ddc3f9c8858",
+        "type": "ui_spacer",
+        "z": "5f241da8bcdfc8fb",
+        "name": "spacer",
+        "group": "e8d56aa3910982da",
+        "order": 20,
+        "width": "4",
+        "height": "1"
+    },
+    {
+        "id": "4537cf20107247fe",
+        "type": "ui_spacer",
+        "z": "5f241da8bcdfc8fb",
+        "name": "spacer",
+        "group": "4039daaebc6008a4",
+        "order": 1,
+        "width": "21",
+        "height": "1"
+    },
+    {
+        "id": "24a3d38b6db5409a",
+        "type": "ui_spacer",
+        "z": "5f241da8bcdfc8fb",
+        "name": "spacer",
+        "group": "174a1a9616012161",
+        "order": 2,
+        "width": "7",
+        "height": "15"
+    },
+    {
+        "id": "23dd9094574dfe6c",
+        "type": "ui_spacer",
+        "z": "5f241da8bcdfc8fb",
+        "name": "spacer",
+        "group": "245d6e8edcfb748b",
+        "order": 3,
+        "width": "7",
+        "height": "15"
+    },
+    {
+        "id": "f83dfd66d75fc178",
+        "type": "ui_spacer",
+        "z": "5f241da8bcdfc8fb",
+        "name": "spacer",
+        "group": "1af7f99941d3cc35",
+        "order": 2,
+        "width": "7",
+        "height": "15"
+    },
+    {
+        "id": "15eb627172be2884",
+        "type": "ui_spacer",
+        "z": "5f241da8bcdfc8fb",
+        "name": "spacer",
+        "group": "9ebc5d7fc242fd38",
+        "order": 3,
+        "width": "7",
+        "height": "15"
+    },
+    {
+        "id": "965d8e266112994e",
+        "type": "ui_spacer",
+        "z": "5f241da8bcdfc8fb",
+        "name": "spacer",
+        "group": "b6c58a40331c8c02",
+        "order": 2,
+        "width": "7",
+        "height": "15"
+    },
+    {
+        "id": "1db6bbbc483bbb69",
+        "type": "ui_spacer",
+        "z": "5f241da8bcdfc8fb",
+        "name": "spacer",
+        "group": "ad3d0273b8f917f7",
+        "order": 3,
+        "width": "7",
+        "height": "15"
+    },
+    {
+        "id": "a7fb63e9ee2e2b16",
+        "type": "ui_spacer",
+        "z": "5f241da8bcdfc8fb",
+        "name": "spacer",
+        "group": "7970f83a037d08f9",
+        "order": 2,
+        "width": "7",
+        "height": "15"
+    },
+    {
+        "id": "fc09f033acd5959f",
+        "type": "ui_spacer",
+        "z": "5f241da8bcdfc8fb",
+        "name": "spacer",
+        "group": "a3833c4a174f86c3",
+        "order": 3,
+        "width": "7",
+        "height": "15"
+    },
+    {
+        "id": "163bdc0bf603148b",
+        "type": "ui_spacer",
+        "z": "5f241da8bcdfc8fb",
+        "name": "spacer",
+        "group": "84bc1c6d689d781a",
+        "order": 11,
+        "width": "2",
+        "height": "1"
+    },
+    {
+        "id": "9af37ae366ae70a9",
+        "type": "ui_spacer",
+        "z": "5f241da8bcdfc8fb",
+        "name": "spacer",
+        "group": "84bc1c6d689d781a",
+        "order": 21,
+        "width": "2",
+        "height": "1"
+    },
+    {
+        "id": "eac28b3c9d18fbbb",
+        "type": "ui_spacer",
+        "z": "5f241da8bcdfc8fb",
+        "name": "spacer",
+        "group": "84bc1c6d689d781a",
+        "order": 41,
+        "width": "2",
+        "height": "1"
+    },
+    {
+        "id": "630dfbe91e2258c5",
+        "type": "ui_spacer",
+        "z": "5f241da8bcdfc8fb",
+        "name": "spacer",
+        "group": "84bc1c6d689d781a",
+        "order": 31,
+        "width": "2",
+        "height": "1"
+    },
+    {
+        "id": "24ea9a14e395d9aa",
+        "type": "ui_spacer",
+        "z": "5f241da8bcdfc8fb",
+        "name": "spacer",
+        "group": "84bc1c6d689d781a",
+        "order": 51,
+        "width": "2",
+        "height": "1"
+    },
+    {
+        "id": "fcda312ae79245ed",
+        "type": "ui_spacer",
+        "z": "5f241da8bcdfc8fb",
+        "name": "spacer",
+        "group": "84bc1c6d689d781a",
+        "order": 61,
+        "width": "2",
+        "height": "1"
+    },
+    {
+        "id": "7a782a398e575771",
+        "type": "ui_spacer",
+        "z": "5f241da8bcdfc8fb",
+        "name": "spacer",
+        "group": "84bc1c6d689d781a",
+        "order": 71,
+        "width": "2",
+        "height": "1"
+    },
+    {
+        "id": "ec972b733dfa00af",
+        "type": "ui_spacer",
+        "z": "5f241da8bcdfc8fb",
+        "name": "spacer",
+        "group": "84bc1c6d689d781a",
+        "order": 5,
+        "width": "2",
+        "height": "1"
+    },
+    {
+        "id": "b7e5f782b35ade9d",
+        "type": "ui_spacer",
+        "z": "5f241da8bcdfc8fb",
+        "name": "spacer",
+        "group": "84bc1c6d689d781a",
+        "order": 12,
+        "width": "2",
+        "height": "1"
+    },
+    {
+        "id": "b51424e4e70f52a4",
+        "type": "ui_spacer",
+        "z": "5f241da8bcdfc8fb",
+        "name": "spacer",
+        "group": "84bc1c6d689d781a",
+        "order": 32,
+        "width": "2",
+        "height": "1"
+    },
+    {
+        "id": "6ed3fe92a2920f4c",
+        "type": "ui_spacer",
+        "z": "5f241da8bcdfc8fb",
+        "name": "spacer",
+        "group": "84bc1c6d689d781a",
+        "order": 42,
+        "width": "2",
+        "height": "1"
+    },
+    {
+        "id": "1b83c5d0a7cb4abe",
+        "type": "ui_spacer",
+        "z": "5f241da8bcdfc8fb",
+        "name": "spacer",
+        "group": "84bc1c6d689d781a",
+        "order": 52,
+        "width": "2",
+        "height": "1"
+    },
+    {
+        "id": "82ccbc9ffed576b0",
+        "type": "ui_spacer",
+        "z": "5f241da8bcdfc8fb",
+        "name": "spacer",
+        "group": "84bc1c6d689d781a",
+        "order": 62,
+        "width": "2",
+        "height": "1"
+    },
+    {
+        "id": "e666fa7c79fc327f",
+        "type": "ui_spacer",
+        "z": "5f241da8bcdfc8fb",
+        "name": "spacer",
+        "group": "84bc1c6d689d781a",
+        "order": 22,
+        "width": "2",
+        "height": "1"
+    },
+    {
+        "id": "be87f4d61a17d857",
+        "type": "ui_spacer",
+        "z": "5f241da8bcdfc8fb",
+        "name": "spacer",
+        "group": "e8d56aa3910982da",
+        "order": 161,
+        "width": "4",
+        "height": "1"
+    },
+    {
+        "id": "d29fb95136d287e1",
+        "type": "ui_spacer",
+        "z": "5f241da8bcdfc8fb",
+        "name": "spacer",
+        "group": "e8d56aa3910982da",
+        "order": 119,
+        "width": "4",
+        "height": "1"
+    },
+    {
+        "id": "95fc1f37d28315a8",
+        "type": "ui_spacer",
+        "z": "5f241da8bcdfc8fb",
+        "name": "spacer",
+        "group": "e8d56aa3910982da",
+        "order": 91,
+        "width": "4",
+        "height": "1"
+    },
+    {
+        "id": "a6cd19b4b7913fe8",
+        "type": "ui_spacer",
+        "z": "5f241da8bcdfc8fb",
+        "name": "spacer",
+        "group": "e8d56aa3910982da",
+        "order": 105,
+        "width": "4",
+        "height": "1"
+    },
+    {
+        "id": "facfbd4510ac826d",
+        "type": "ui_spacer",
+        "z": "5f241da8bcdfc8fb",
+        "name": "spacer",
+        "group": "e8d56aa3910982da",
+        "order": 77,
+        "width": "4",
+        "height": "1"
+    },
+    {
+        "id": "1da1a1e0b33030fc",
+        "type": "ui_spacer",
+        "z": "5f241da8bcdfc8fb",
+        "name": "spacer",
+        "group": "e8d56aa3910982da",
+        "order": 147,
+        "width": "4",
+        "height": "1"
+    },
+    {
+        "id": "b906fc4a3c301559",
+        "type": "ui_spacer",
+        "z": "5f241da8bcdfc8fb",
+        "name": "spacer",
+        "group": "e8d56aa3910982da",
+        "order": 133,
+        "width": "4",
+        "height": "1"
+    },
+    {
+        "id": "2e419df53a06a6d3",
+        "type": "ui_spacer",
+        "z": "5f241da8bcdfc8fb",
+        "name": "spacer",
+        "group": "e8d56aa3910982da",
+        "order": 63,
+        "width": "4",
+        "height": "1"
+    },
+    {
+        "id": "d01016023874875e",
+        "type": "ui_spacer",
+        "z": "5f241da8bcdfc8fb",
+        "name": "spacer",
+        "group": "e8d56aa3910982da",
+        "order": 49,
+        "width": "4",
+        "height": "1"
+    },
+    {
+        "id": "3e87d452e4c2bed9",
+        "type": "ui_spacer",
+        "z": "5f241da8bcdfc8fb",
+        "name": "spacer",
+        "group": "e8d56aa3910982da",
+        "order": 35,
+        "width": "4",
+        "height": "1"
+    },
+    {
+        "id": "f8cb7b6a7b08b2e9",
+        "type": "ui_spacer",
+        "z": "5f241da8bcdfc8fb",
+        "name": "spacer",
+        "group": "56d7357ff61d7e43",
+        "order": 10,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "7228841bdd39e6e9",
+        "type": "ui_spacer",
+        "z": "5f241da8bcdfc8fb",
+        "name": "spacer",
+        "group": "e8d56aa3910982da",
+        "order": 5,
+        "width": "4",
+        "height": "1"
+    },
+    {
+        "id": "888d0aafa026d37c",
+        "type": "ui_spacer",
+        "z": "5f241da8bcdfc8fb",
+        "name": "spacer",
+        "group": "e8d56aa3910982da",
+        "order": 21,
+        "width": "4",
+        "height": "1"
+    },
+    {
+        "id": "56d7357ff61d7e43",
+        "type": "ui_group",
+        "name": "자동개폐기",
+        "tab": "69bd9ce3d618a3d5",
+        "order": 2,
+        "disp": false,
+        "width": "20",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "7970f83a037d08f9",
+        "type": "ui_group",
+        "name": "",
+        "tab": "fd90f67fc5f23f44",
+        "order": 1,
+        "disp": false,
+        "width": "7",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "5221b3bc4647bd69",
+        "type": "ui_group",
+        "name": "UbiFarm",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "e751117cd4c76378",
+        "type": "ui_group",
+        "name": "관수",
+        "tab": "cc3e5d7de78ca9d9",
+        "order": 2,
+        "disp": false,
+        "width": "20",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "84bc1c6d689d781a",
+        "type": "ui_group",
+        "name": "Setting",
+        "tab": "fd90f67fc5f23f44",
+        "order": 2,
+        "disp": false,
+        "width": "20",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "e8d56aa3910982da",
+        "type": "ui_group",
+        "name": "개별스위치",
+        "tab": "32a7082327a78699",
+        "order": 2,
+        "disp": false,
+        "width": "20",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "174a1a9616012161",
+        "type": "ui_group",
+        "name": "",
+        "tab": "69bd9ce3d618a3d5",
+        "order": 1,
+        "disp": false,
+        "width": "7",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "245d6e8edcfb748b",
+        "type": "ui_group",
+        "name": "",
+        "tab": "69bd9ce3d618a3d5",
+        "order": 3,
+        "disp": true,
+        "width": "7",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "1af7f99941d3cc35",
+        "type": "ui_group",
+        "name": "",
+        "tab": "cc3e5d7de78ca9d9",
+        "order": 1,
+        "disp": true,
+        "width": "7",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "9ebc5d7fc242fd38",
+        "type": "ui_group",
+        "name": "",
+        "tab": "cc3e5d7de78ca9d9",
+        "order": 3,
+        "disp": true,
+        "width": "7",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "b6c58a40331c8c02",
+        "type": "ui_group",
+        "name": "",
+        "tab": "32a7082327a78699",
+        "order": 1,
+        "disp": true,
+        "width": "7",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "ad3d0273b8f917f7",
+        "type": "ui_group",
+        "name": "",
+        "tab": "32a7082327a78699",
+        "order": 3,
+        "disp": true,
+        "width": "7",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "a3833c4a174f86c3",
+        "type": "ui_group",
+        "name": "",
+        "tab": "fd90f67fc5f23f44",
+        "order": 3,
+        "disp": false,
+        "width": "7",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "69bd9ce3d618a3d5",
+        "type": "ui_tab",
+        "name": "자동개폐기",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "fd90f67fc5f23f44",
+        "type": "ui_tab",
+        "name": "Setting",
+        "icon": "dashboard",
+        "order": 4,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "cc3e5d7de78ca9d9",
+        "type": "ui_tab",
+        "name": "관수",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "32a7082327a78699",
+        "type": "ui_tab",
+        "name": "개별스위치",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    }
+]
